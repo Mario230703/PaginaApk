@@ -20,3 +20,34 @@ h1 {
     text-align: center;
     text-decoration: underline;
 }
+.resolucion{
+    width: 99%;
+    align-items: center;
+    text-align: center;
+}
+
+@media(max-width: 767px){
+    .desktop{
+        display: none;
+    }
+    .tablet{
+        display: none;
+    }
+}
+
+@media(min-width:768px) and (max-width:990px){
+    .desktop{
+        display: none;
+    }
+    .celular{
+        display: none;
+    }
+}
+@media(min-width: 991px){
+    .tablet{
+        display: none;
+    }
+    .celular{
+        display: none;
+    }
+}
